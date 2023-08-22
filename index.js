@@ -142,10 +142,10 @@ averageChange = totalChange / (totalNumberMonths - 1);
 */ 
 
 //logging the financial analysis information using concatenation, i have also used toFixed(2) to give the amounto decimal places we need which is 2
-console.log(`Financial Analysis 
-----------------
-Total Months: ${totalNumberMonths}
-Total: $${totalProfitLoss}
-Average Change: ${averageChange.toFixed(2)}
-Greatest Increase in Profits/Losses: ${greatestFinancialIncrease.month} ($${greatestFinancialIncrease.amount})
+console.log(`Financial Analysis \n
+---------------- \n
+Total Months: ${totalNumberMonths} \n
+Total: $${totalProfitLoss} \n
+Average Change: ${averageChange.toFixed(2)} \n
+Greatest Increase in Profits/Losses: ${greatestFinancialIncrease.month} ($${greatestFinancialIncrease.amount}) \n
 Greatest Decrease in Profits/Losses: ${greatestFinancialDecrease.month} ($${greatestFinancialDecrease.amount})`);
